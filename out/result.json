@@ -1,0 +1,134 @@
+{
+ "dev_random_rollout": {
+  "pre/post of coached reps": {
+   "tau=0.0": {
+    "mean_est_pct": -0.1,
+    "mean_true_pct": 0.0,
+    "bias_pts": -0.1,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": 14.8,
+    "mean_true_pct": 14.4,
+    "bias_pts": 0.4,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   }
+  },
+  "coached vs never coached": {
+   "tau=0.0": {
+    "mean_est_pct": -0.3,
+    "mean_true_pct": 0.0,
+    "bias_pts": -0.3,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": 16.1,
+    "mean_true_pct": 14.4,
+    "bias_pts": 1.7,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   }
+  },
+  "diff-in-diff vs never coached": {
+   "tau=0.0": {
+    "mean_est_pct": -0.2,
+    "mean_true_pct": 0.0,
+    "bias_pts": -0.2,
+    "claims_lift_pct_of_worlds": 7.5,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": 14.9,
+    "mean_true_pct": 14.4,
+    "bias_pts": 0.5,
+    "claims_lift_pct_of_worlds": 100.0,
+    "worlds": 40
+   }
+  },
+  "trigger-matched controls": {
+   "tau=0.0": {
+    "mean_est_pct": NaN,
+    "mean_true_pct": NaN,
+    "bias_pts": NaN,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 0
+   },
+   "tau=0.25": {
+    "mean_est_pct": NaN,
+    "mean_true_pct": NaN,
+    "bias_pts": NaN,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 0
+   }
+  }
+ },
+ "held_out_struggle_triggered": {
+  "pre/post of coached reps": {
+   "tau=0.0": {
+    "mean_est_pct": 30.3,
+    "mean_true_pct": 0.0,
+    "bias_pts": 30.3,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": 51.6,
+    "mean_true_pct": 16.6,
+    "bias_pts": 35.0,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   }
+  },
+  "coached vs never coached": {
+   "tau=0.0": {
+    "mean_est_pct": -26.5,
+    "mean_true_pct": 0.0,
+    "bias_pts": -26.5,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": -10.6,
+    "mean_true_pct": 16.6,
+    "bias_pts": -27.2,
+    "claims_lift_pct_of_worlds": null,
+    "worlds": 40
+   }
+  },
+  "diff-in-diff vs never coached": {
+   "tau=0.0": {
+    "mean_est_pct": 34.0,
+    "mean_true_pct": 0.0,
+    "bias_pts": 34.0,
+    "claims_lift_pct_of_worlds": 100.0,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": 55.2,
+    "mean_true_pct": 16.6,
+    "bias_pts": 38.7,
+    "claims_lift_pct_of_worlds": 100.0,
+    "worlds": 40
+   }
+  },
+  "trigger-matched controls": {
+   "tau=0.0": {
+    "mean_est_pct": -1.2,
+    "mean_true_pct": 0.0,
+    "bias_pts": -1.2,
+    "claims_lift_pct_of_worlds": 5.0,
+    "worlds": 40
+   },
+   "tau=0.25": {
+    "mean_est_pct": 16.5,
+    "mean_true_pct": 16.6,
+    "bias_pts": -0.1,
+    "claims_lift_pct_of_worlds": 77.5,
+    "worlds": 40
+   }
+  }
+ }
+}
